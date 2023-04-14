@@ -89,3 +89,51 @@
 .todo__title, .todo__subtitle{
     margin-bottom: 10px;
 }
+
+.todo__item-left{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.todo__item-done{
+    zoom: 1.1;
+    border-radius: 50%;
+}
+
+.todo__greetings-name{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: darkslategray;
+}
+
+
+
+.todo__item-delete{
+    color: white;
+    background: crimson;
+    padding: 5px 10px;
+    border: solid;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.todo__item-edit{
+    color: white;
+    background: deeppink;
+    padding: 5px 10px;
+    border: solid;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.todo__item-delete:hover {
+    box-shadow: 4px 4px 28px 12px rgba(34, 60, 80, 0.2);
+}
+
+.todo__item-edit:hover{
+    box-shadow: 4px 4px 28px 12px rgba(34, 60, 80, 0.2);
+}

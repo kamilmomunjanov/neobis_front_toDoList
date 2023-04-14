@@ -12,11 +12,11 @@
 
 <section class="todo">
     <div class="todo__block">
-        <h1 class="todo__greetings">What's up, <span class="todo__greetings-name"></span></h1>
+        <h1 class="todo__greetings">What's up, <input class="todo__greetings-name" type="text"></h1>
         <p class="todo__title">CREATE A TODO</p>
         <p class="todo__subtitle">What's on your todo list?</p>
         <form class="todo__form">
-            <input class="todo__field" type="text" placeholder="e.g. get a milk">
+            <input required class="todo__field" type="text" placeholder="e.g. get a milk">
             <button class="todo__add" type="submit">Add todo</button>
             <p class="todo__error">This task already exists</p>
         </form>
